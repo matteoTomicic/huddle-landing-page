@@ -1,0 +1,23 @@
+.register-btn {
+    font-size: 1.4rem;
+    text-decoration: none;
+    background: $white;
+    color: $theme-violet;
+    padding: .8rem 7rem;
+    border-radius: 2rem;
+    box-shadow: 0 .2rem .5rem .1rem rgba(0, 0, 0, 0.7);
+
+    &:hover {
+        background: $theme-magenta;
+        color: $white;
+    }
+
+    @media (min-width: $break-tablet) {
+        font-size: 1.8rem;
+    }
+
+    @media (min-width: $break-desktop) {
+        padding: 1.2rem 6rem;
+        border-radius: 3rem;
+    }
+}

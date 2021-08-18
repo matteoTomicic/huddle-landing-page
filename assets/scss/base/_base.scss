@@ -1,0 +1,51 @@
+body {
+    background-image: url("../../images/bg-mobile.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: $theme-violet;
+
+    @media (min-width: $break-desktop) {
+        background-image: url("../../images/bg-desktop.svg");
+    }
+}
+
+.content-heading {
+    font-size: 2.4rem;
+    text-align: center;
+
+    @media (min-width: $break-tablet) {
+        font-size: 3.4rem;
+    }
+
+    @media (min-width: $break-desktop) {
+        text-align: left;
+        font-size: 4rem;
+    }
+}
+
+.content {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+
+    @media (min-width: $break-tablet) {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+
+    @media (min-width: $break-desktop) {
+        text-align: left;   
+    }
+}
+
+footer {
+    margin-bottom: 1rem;
+
+    .attribution {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .attribution a {
+        color: white;
+    }
+}

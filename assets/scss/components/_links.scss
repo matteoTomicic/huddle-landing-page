@@ -1,0 +1,13 @@
+.social-icons-link {
+    &:hover {
+        color: $theme-magenta;
+
+        .social-icon {
+            border-color: $theme-magenta;
+        }
+    }
+
+    &.twitter-link {
+        margin: 0 2rem;
+    }
+}

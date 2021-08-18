@@ -1,0 +1,26 @@
+img {
+    width: 100%;
+}
+
+.logo-image {
+    width: 45%;
+
+    @media (min-width: $break-desktop) {
+        width: 20%;
+    }
+}
+
+.social-icon {
+    font-size: 1.4rem;
+    border: .1rem solid $white;
+    border-radius: 100%;
+
+    &.fa-facebook-f {
+        padding: .7rem 1rem;
+    }
+
+    &.fa-twitter,
+    &.fa-instagram {
+        padding: .7rem;
+    }
+}
